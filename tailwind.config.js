@@ -3,12 +3,12 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        blink: {
+        borderBlink: {
           '50%': { 'border-left' : '2px solid transparent'}
         }
       },
       animation: {
-        blink: 'blink 1s infinite'
+        borderBlink: 'borderBlink 1s infinite'
       }
     },
   },
